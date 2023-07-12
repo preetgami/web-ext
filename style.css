@@ -1,0 +1,35 @@
+body{
+    width:300px;
+    height:300px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+ font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 20px;
+}
+
+h2{
+    width: 100%;
+    color: black;
+    background: #aaff00;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 32px;
+  color: #555555;
+  margin-bottom: 20px;
+}
