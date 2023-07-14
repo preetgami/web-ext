@@ -4,24 +4,77 @@ body{
     background-color: rgb(0, 0, 0);
     display: block;
     justify-content: center;
- font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 20px;
-  background-image: url("https://random.imagecdn.app/500/150");
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  
+    background-image: url("back.jpg");
+ 
     background-position: center;
+
+}
+#title{
+    background: #000000;
+    color: #ffffff;
+
+}
+.inputs {
+    margin-top: 20px;
+}
+#subButton {
+    padding: 5px 10px;
+    margin-left: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 1rem;
+
+}
+#subButton:hover{
+    scale: 1.2;
+
+}
+#cityLabel {
+    font-size: 18px;
+    color: #666;
+}
+
+#cityfield {
+    padding: 5px;
+    margin-left: 10px;
+}
+.form-city {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+#quoteelement {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
 }
 
 h2{
+  border-radius: 1rem;
+  padding: 5px;
     width: 100%;
     color: #000000;
-    background: #aaff00a0;
+    background: #ffffff;
   margin-bottom: 10px;
   font-size: 24px;
 
 
 }
+h3{
+  color:white;
+}
 .author{
   display: flex;
+}
+h4{
+  background-color: #aaff00;
 }
 
 .container {

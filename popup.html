@@ -2,24 +2,41 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Quotes</title>
+        <title>Quotes+Weather</title>
         <link rel="stylesheet" href="style.css"> 
     </head>
+
     <body>
+        <h2 id="title" >Quote</h2>
         <div>
         <h2 id="quoteelement"></h2>
         </div>
     </br>
+
     <div class="author">
-        <h1 >~</h1>
-        <h1 id="auth">~</h1>
+        <h2 id="auth"></h2>
 
-</div>
+    </div>
+    <div class="inputs">
+        <h2 id="title">Weather search</h2>
+        <form id='cityForm'>
+        <div class='form-city'>
+            <label id='cityLabel' for='nameField'><h3>City</h3></label>
+            <input id='cityfield' type='text' maxlength='25'></input>
+            <button id='subButton' type='button'>Search</button>
+
+        </div>
+            <h4 id="result"></h4>
+
+
+    </div>
 <div class="temp">
-    <h1 >Current temp: </h1>
+    <h3 >Current temp: </h3>
 
-    <h1 id="weather"></h1>
-    <h1 id="location" >In Edmonton</h1>
+    <h3 id="weather"></h3>
+    <h3 id="location" ></h3>
+
+
 
 </div>
 
